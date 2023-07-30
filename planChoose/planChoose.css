@@ -1,0 +1,44 @@
+* {
+    padding: 0.5rem 0.5rem;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    background: url(../materials/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'League Spartan', sans-serif;
+    color: #24766C;
+}
+
+.parentContainer {
+    display: flex;
+}
+
+.leftContainer {
+    flex-direction: column;
+    width: 22%;
+    height: 100%;
+}
+
+.nav {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+.nav button{
+    background: none;
+    color: #24766C;
+    border: none;
+    font-size: 1.3rem;
+    font-weight: 300;
+    opacity: 0.4;
+    transition: 0.6s ease;
+}
+
+.nav button:hover {
+    cursor: pointer;
+    opacity: 1;
+    transition: 0.6s ease;
+}
