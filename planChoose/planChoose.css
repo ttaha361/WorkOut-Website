@@ -69,7 +69,7 @@ body {
     width: 45%;
     display: flex;
     flex-direction: column;
-    transition: 2s ease;
+    transition: 1s ease;
 }
 
 .leftText,
@@ -78,10 +78,10 @@ body {
     flex-direction: column;
     position: absolute;
     color: white;
-    margin-left: 6rem;
+    margin-left: 6rem; /* I'm aware of bug in this line but even with seperate class css it's not working except this one*/
     margin-top: 1rem;
     opacity: 0;
-    transition: 2.3s ease;
+    transition: 1.3s ease;
 }
 
 .leftText.visible,
@@ -96,7 +96,7 @@ body {
 .midrightContainer img {
     width: 100%;
     border-radius: 15rem;
-    transition: 2s ease;
+    transition: 1s ease;
 }
 
 .midleftContainer img.hidden,
@@ -106,7 +106,7 @@ body {
 
 .midleftContainer:hover,
 .midrightContainer:hover{
-    transition: 2.3s ease;
+    transition: 1.3s ease;
     cursor: pointer;
 }
 
